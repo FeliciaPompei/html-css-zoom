@@ -54,7 +54,7 @@ header #header-wrapper .fas:first-child{
 main{
     height:80vh;
     width:90%;
-    margin: 0 auto;
+    margin: 0 auto 2vh;
     overflow: auto;
 }
 
@@ -89,6 +89,19 @@ main #main-content .user h4{
 /* footer */
 
 footer{
-    height:12vh;
-    background-color:hotpink;
+    background-color:rgb(56, 56, 56);
+}
+
+footer #footer-container{
+    justify-content:space-between;
+    height:10vh;
+}
+
+footer #footer-container .col{
+    padding:20px 15px;
+}
+
+footer #footer-container .col h4{
+    margin:auto;
+    color:red;
 }
