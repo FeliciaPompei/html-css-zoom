@@ -4,14 +4,16 @@
     margin: 0;
 }
 
-.flex-container{
-    display:flex;
-}
-
 body{
     background-color:black;
 }
+
+
 /* common classes */
+
+.flex-container{
+    display:flex;
+}
 
 .bg-grey{
     background-color:rgb(128, 128, 128, 0.5);
@@ -100,6 +102,38 @@ footer #footer-container{
 footer #footer-container .col{
     padding:20px 15px;
 }
+
+footer #footer-container #user-settings{
+    width:15%;
+    color:white;
+    text-align: center;
+
+
+    justify-content:space-evenly;
+    align-items:center;
+}
+
+footer #footer-container #user-settings i{
+    font-size:0.7rem;
+}
+
+footer #footer-container #user-settings .settings{
+    padding-right:10px;
+} 
+
+footer #footer-container #user-settings .settings i{
+    font-size:1.8rem;
+    margin-bottom:5px;
+}
+
+
+footer #footer-container #user-settings p{
+    font-size:1rem;
+}
+
+
+
+
 
 footer #footer-container .col h4{
     margin:auto;
