@@ -3,3 +3,42 @@
     padding: 0;
     margin: 0;
 }
+
+.flex-container{
+    display:flex;
+}
+
+body{
+    background-color:black;
+}
+/* common classes */
+
+
+/* header */
+
+header{
+    height:8vh;
+    background-color:darkkhaki;
+}
+
+header .header-wrapper{
+    padding:5px;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+/* main */
+
+main{
+    height:80vh;
+    background-color:gainsboro;
+    width:90%;
+    margin: 0 auto;
+}
+
+/* footer */
+
+footer{
+    height:12vh;
+    background-color:hotpink;
+}
