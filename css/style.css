@@ -92,6 +92,11 @@ main #main-content .user{
     align-items:flex-end;
 }
 
+main #main-content .user .fa-microphone-slash{
+    font-size:0.8rem;
+    margin-bottom:0;
+}
+
 main #main-content .user h4{
     font-weight: 300;
     font-size:0.7rem;
